@@ -12,9 +12,10 @@ import AudioToolbox
 
 class ViewController: UIViewController {
     
-    /////////////////////////////
-    // MARK: Instance variables /
-    /////////////////////////////
+    
+    
+//Instance variables
+    
     
     @IBOutlet weak var playAgainButton: UIButton!
     @IBOutlet weak var questionField: UILabel!
@@ -32,9 +33,10 @@ class ViewController: UIViewController {
     var count = 15
     var showMenueScreen = true
     
-    /////////////////////////////
-    // MARK: Instance methods ///
-    /////////////////////////////
+   
+    
+//Instance methods
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,9 +45,10 @@ class ViewController: UIViewController {
         displayQuestion()
     }
     
-    /////////////////////////////
-    // MARK: IBActions //////////
-    /////////////////////////////
+    
+
+//IBActions
+    
     
     @IBAction func playAgain() {
         // Show the answer buttons
@@ -117,9 +120,11 @@ class ViewController: UIViewController {
         }
     }
     
-    /////////////////////////////
-    // MARK: Helper Methods//////
-    /////////////////////////////
+    
+    
+    
+//Helper Methods
+    
     
     func hideAnswerButtons(_ status: Bool) {
         
